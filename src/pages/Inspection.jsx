@@ -25,9 +25,8 @@ function Inspection() {
     setAnswers((prev) => ({ ...prev, [id]: value }));
   };
 
-  const completed = Object.values(answers).filter(
-    (answer) => answer === true,
-  ).length;
+  const completed = Object.values(answers).filter((a) => a !== "").length;
+
   const total = checklistItems.length;
 
   const handleSubmit = () => {
@@ -106,7 +105,7 @@ function Inspection() {
                 Valve type
               </label>
               <select
-                value={valveInfo.valveTypes}
+                value={valveInfo.valveType}
                 onChange={(e) => handleInfo("valveType", e.target.value)}
                 className="border border-gray-600 rounded px-3 py-2 text-sm bg-white"
               >
