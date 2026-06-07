@@ -1,4 +1,4 @@
-export const checklistData = [
+export const checklistItems = [
     {id: 1, label: "Is all instruments checked and leak free?"},
     {id: 2, label: "Limit switch are configured and tested?"},
     {id: 3, label: "All instruments port are covered?"},
