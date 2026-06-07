@@ -37,6 +37,11 @@ function Inspection() {
         setMessage({ text: "Please fill inspector name", type: "error"});
         return
     }
+    
+    if (valveInfo.valveType === "") {
+      setMessage({text: "Please select valve type", type: "error"})
+      return
+    }
 
     if (completed < total) {
         setMessage({ text: "Please complete all checklist items", type: "error"})
