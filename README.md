@@ -4,4 +4,4 @@ Digital final inspection checklist for valve manufacturing.
 Built with React, Tailwind CSS, and React Router.
 
 ## Live Demo
-https://valve-inspection-react.vercel.app/Inspection
+https://valve-inspection-react.vercel.app/
