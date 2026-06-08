@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 vite/
-README.md
+
 
 # Editor directories and files
 .vscode/*
